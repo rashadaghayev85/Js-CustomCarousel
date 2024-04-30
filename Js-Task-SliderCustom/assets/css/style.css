@@ -1,0 +1,19 @@
+div {
+  display: flex;
+  justify-content: center;
+}
+div > div i {
+  font-size: 30px;
+}
+div > div:first-child {
+  display: flex;
+  align-items: center;
+}
+div > div:last-child {
+  display: flex;
+  align-items: center;
+}
+div img {
+  width: 1000px;
+  height: 500px;
+}/*# sourceMappingURL=style.css.map */

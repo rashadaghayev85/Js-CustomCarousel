@@ -1,0 +1,55 @@
+// #slider{
+   
+        
+//   div{
+//     width: 80%;
+//     height: 80vh;
+//     background-color: red;
+//     margin-left: 120px;
+//     display: flex;
+//     div{
+       
+//         .img{
+//            >div{
+//               display: flex;
+//               align-items: center;
+//            }
+//            .icon-left{
+//             margin-left: 38px;
+//          }
+//          .icon-right{
+//             margin-right: 38px;
+//          }
+//             img{
+//                width: 90%;
+//                height: 100%;
+//             }
+            
+//         }
+        
+//     }
+//   }  
+// }
+
+div{
+    display: flex;
+    justify-content: center;
+    >div{
+        i{
+            font-size: 30px;
+        }
+    }
+    >div:first-child{
+     display: flex;
+     align-items: center;
+    }
+    >div:last-child{
+       display: flex;
+       align-items: center;
+      
+    }
+    img{
+width: 1000px;
+height: 500px;
+    }
+}
